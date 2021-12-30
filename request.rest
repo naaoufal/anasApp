@@ -1,0 +1,53 @@
+POST http://localhost:3001/api/users/createUser
+Content-Type: application/json
+
+{
+    "email" : "test@gmail.com",
+    "password" : "azer"
+}
+
+###
+
+GET http://localhost:3001/api/users/getUsers
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+###
+POST http://localhost:3001/api/users/authUser
+Content-Type: application/json
+
+{
+    "email" : "test@gmail.com",
+    "password" : "azer"
+}
+
+###
+
+POST http://localhost:3001/api/posts/createPost
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+{
+    "titre" : "titre 4",
+    "contenu" : "contenu 4",
+    "emplacement" : "emplacement 4"
+}
+
+###
+
+GET http://localhost:3001/api/posts/getPosts
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+###
+
+POST http://localhost:3001/api/favorits/addFavorit
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+{
+    "userID" : "61cc93c780ae7b396dabe954",
+    "postID" : "61cce2daa7790a4330899309"
+}
+
+###
+GET http://localhost:3001/api/favorits/listFavorit/61cc93c780ae7b396dabe954
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA

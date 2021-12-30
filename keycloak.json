@@ -1,0 +1,8 @@
+{
+  "realm": "API",
+  "auth-server-url": "http://127.0.0.1:8080/auth/",
+  "ssl-required": "external",
+  "resource": "test-api",
+  "public-client": true,
+  "confidential-port": 0
+}

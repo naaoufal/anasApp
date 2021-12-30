@@ -1,0 +1,662 @@
+2021-12-29 18:49:33,858 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2021-12-29 18:49:36,078 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2021-12-29 18:49:36,088 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-12-29 18:49:36,220 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) starting
+2021-12-29 18:49:36,223 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot
+	java.io.tmpdir = C:\Users\DESKTO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\composer;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\nodejs\;C:\Program Files\Symfony;C:\xampp\php;C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\Desktop-666\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Desktop-666\AppData\Roaming\npm;C:\Users\Desktop-666\AppData\Local\Microsoft\WindowsApps;C:\Users\Desktop-666\AppData\Local\atom\bin;C:\Users\Desktop-666\AppData\Roaming\Composer\vendor\bin;C:\Users\Desktop-666\Desktop\dart-sdk\bin;C:\Users\Desktop-666\Desktop\flutter\bin;C:\Users\Desktop-666\AppData\Local\GitHubDesktop\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.12+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Foundation
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-11.0.12+7
+	java.version = 11.0.12
+	java.version.date = 2021-07-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Eclipse Foundation
+	java.vm.version = 11.0.12+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	jboss.host.name = desktop-egacmun
+	jboss.modules.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-egacmun
+	jboss.qualified.host.name = desktop-egacmun
+	jboss.server.base.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone
+	jboss.server.config.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log
+	jboss.server.name = desktop-egacmun
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar -mp C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = MA
+	user.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\bin
+	user.home = C:\Users\Desktop-666
+	user.language = fr
+	user.name = Desktop-666
+	user.script = 
+	user.timezone = Africa/Casablanca
+	user.variant = 
+2021-12-29 18:49:36,225 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties 
+2021-12-29 18:49:38,019 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.1.Final
+2021-12-29 18:49:40,118 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-12-29 18:49:40,137 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.5.Final
+2021-12-29 18:49:40,142 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.5.Final
+2021-12-29 18:49:40,204 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-12-29 18:49:40,210 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2021-12-29 18:49:40,212 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2021-12-29 18:49:40,219 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2021-12-29 18:49:40,224 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2021-12-29 18:49:40,227 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-12-29 18:49:40,241 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2021-12-29 18:49:40,245 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2021-12-29 18:49:40,263 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.23.Final
+2021-12-29 18:49:40,283 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-12-29 18:49:40,293 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-12-29 18:49:40,326 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.14.Final starting
+2021-12-29 18:49:40,416 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore' does not exist. Used blank.
+2021-12-29 18:49:40,452 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2021-12-29 18:49:40,461 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2021-12-29 18:49:40,473 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-12-29 18:49:40,482 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-12-29 18:49:40,576 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-12-29 18:49:40,605 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-12-29 18:49:40,605 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-12-29 18:49:40,620 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2021-12-29 18:49:40,622 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2021-12-29 18:49:40,624 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2021-12-29 18:49:40,700 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-12-29 18:49:40,777 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 18:49:40,858 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 18:49:40,863 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 18:49:40,870 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-12-29 18:49:41,754 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-12-29 18:49:41,756 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\deployments
+2021-12-29 18:49:41,766 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-12-29 18:49:42,849 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2021-12-29 18:49:42,891 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 18:49:42,893 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 18:49:42,916 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-12-29 18:49:42,916 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-12-29 18:49:43,104 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-12-29 18:49:43,122 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-12-29 18:49:43,123 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-12-29 18:49:43,123 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-12-29 18:49:43,123 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started work cache from keycloak container
+2021-12-29 18:49:43,122 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-12-29 18:49:43,124 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-12-29 18:49:43,124 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-12-29 18:49:43,124 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-12-29 18:49:43,157 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-12-29 18:49:43,157 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started keys cache from keycloak container
+2021-12-29 18:49:43,157 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started users cache from keycloak container
+2021-12-29 18:49:43,157 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started realms cache from keycloak container
+2021-12-29 18:49:43,701 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-12-29 18:49:44,059 INFO  [org.keycloak.services] (ServerService Thread Pool -- 57) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-12-29 18:49:44,803 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 57) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-12-29 18:49:44,942 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-12-29 18:49:44,965 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-12-29 18:49:44,974 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-12-29 18:49:44,975 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 57) Node name: desktop-egacmun, Site name: null
+2021-12-29 18:49:46,203 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 57) Database info: {databaseUrl=jdbc:h2:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2021-12-29 18:49:48,174 INFO  [org.keycloak.connections.jpa.updater.liquibase.LiquibaseJpaUpdaterProvider] (ServerService Thread Pool -- 57) Initializing database schema. Using changelog META-INF/jpa-changelog-master.xml
+2021-12-29 18:49:49,906 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-12-29 18:49:49,976 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {5.3.24.Final}
+2021-12-29 18:49:49,978 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+2021-12-29 18:49:50,190 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-12-29 18:49:50,329 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-29 18:49:50,364 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 57) Envers integration enabled? : true
+2021-12-29 18:49:50,574 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 57) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-12-29 18:49:50,773 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 57) HV000001: Hibernate Validator 6.0.22.Final
+2021-12-29 18:49:51,584 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+2021-12-29 18:49:51,941 INFO  [org.keycloak.services] (ServerService Thread Pool -- 57) KC-SERVICES0050: Initializing master realm
+2021-12-29 18:49:53,474 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,476 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,480 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,481 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,482 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,482 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,483 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,483 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,484 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,487 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 57) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:49:53,781 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-12-29 18:49:53,844 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-12-29 18:49:53,883 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-12-29 18:49:53,886 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) started in 24268ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2021-12-29 18:49:53,889 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-12-29 18:49:53,890 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-12-29 18:57:49,063 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-12-29 18:57:49,065 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 18:57:49,069 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-12-29 18:57:49,083 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 18:57:49,085 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-12-29 18:57:49,086 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-12-29 18:57:49,088 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 57) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2021-12-29 18:57:49,089 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-12-29 18:57:49,102 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 18:57:49,105 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2021-12-29 18:57:49,105 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-12-29 18:57:49,114 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 43ms
+2021-12-29 18:57:49,117 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2021-12-29 18:57:49,122 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2021-12-29 18:57:49,124 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2021-12-29 18:57:49,124 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2021-12-29 18:57:49,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-12-29 18:57:49,126 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2021-12-29 18:57:49,126 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2021-12-29 18:57:49,127 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped keys cache from keycloak container
+2021-12-29 18:57:49,126 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2021-12-29 18:57:49,129 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped work cache from keycloak container
+2021-12-29 18:57:49,130 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2021-12-29 18:57:49,130 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2021-12-29 18:57:49,130 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped users cache from keycloak container
+2021-12-29 18:57:49,133 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped realms cache from keycloak container
+2021-12-29 18:57:49,136 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.2.14.Final stopping
+2021-12-29 18:57:49,136 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-12-29 18:57:49,145 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 78) Stopping cache manager null on null
+2021-12-29 18:57:49,150 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 69) Stopping cache manager null on null
+2021-12-29 18:57:49,161 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) stopped in 89ms
+2021-12-29 18:59:08,359 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2021-12-29 18:59:08,784 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2021-12-29 18:59:08,792 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-12-29 18:59:08,880 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) starting
+2021-12-29 18:59:08,883 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot
+	java.io.tmpdir = C:\Users\DESKTO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\composer;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\nodejs\;C:\Program Files\Symfony;C:\xampp\php;C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\Desktop-666\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Desktop-666\AppData\Roaming\npm;C:\Users\Desktop-666\AppData\Local\Microsoft\WindowsApps;C:\Users\Desktop-666\AppData\Local\atom\bin;C:\Users\Desktop-666\AppData\Roaming\Composer\vendor\bin;C:\Users\Desktop-666\Desktop\dart-sdk\bin;C:\Users\Desktop-666\Desktop\flutter\bin;C:\Users\Desktop-666\AppData\Local\GitHubDesktop\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.12+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Foundation
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-11.0.12+7
+	java.version = 11.0.12
+	java.version.date = 2021-07-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Eclipse Foundation
+	java.vm.version = 11.0.12+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	jboss.host.name = desktop-egacmun
+	jboss.modules.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-egacmun
+	jboss.qualified.host.name = desktop-egacmun
+	jboss.server.base.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone
+	jboss.server.config.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log
+	jboss.server.name = desktop-egacmun
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar -mp C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = MA
+	user.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\bin
+	user.home = C:\Users\Desktop-666
+	user.language = fr
+	user.name = Desktop-666
+	user.script = 
+	user.timezone = Africa/Casablanca
+	user.variant = 
+2021-12-29 18:59:08,885 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties 
+2021-12-29 18:59:09,762 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.1.Final
+2021-12-29 18:59:10,489 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-12-29 18:59:10,513 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.5.Final
+2021-12-29 18:59:10,523 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.5.Final
+2021-12-29 18:59:10,586 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2021-12-29 18:59:10,596 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2021-12-29 18:59:10,597 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-12-29 18:59:10,601 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-12-29 18:59:10,611 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2021-12-29 18:59:10,625 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2021-12-29 18:59:10,652 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2021-12-29 18:59:10,684 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-12-29 18:59:10,699 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-12-29 18:59:10,769 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.2.14.Final starting
+2021-12-29 18:59:10,792 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore' does not exist. Used blank.
+2021-12-29 18:59:10,891 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2021-12-29 18:59:10,899 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-12-29 18:59:10,898 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-12-29 18:59:10,943 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2021-12-29 18:59:11,073 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-12-29 18:59:11,365 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2021-12-29 18:59:11,374 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-12-29 18:59:11,375 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-12-29 18:59:11,427 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.23.Final
+2021-12-29 18:59:11,429 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2021-12-29 18:59:11,436 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) Queuing requests.
+2021-12-29 18:59:11,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2021-12-29 18:59:11,455 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-12-29 18:59:11,468 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\deployments
+2021-12-29 18:59:11,488 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-12-29 18:59:11,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-12-29 18:59:11,547 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-12-29 18:59:11,579 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 18:59:11,661 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 18:59:11,662 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 18:59:12,261 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2021-12-29 18:59:12,308 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 18:59:12,310 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 18:59:12,343 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-12-29 18:59:12,343 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-12-29 18:59:12,564 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-12-29 18:59:12,591 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-12-29 18:59:12,592 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-12-29 18:59:12,591 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-12-29 18:59:12,593 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-12-29 18:59:12,595 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started work cache from keycloak container
+2021-12-29 18:59:12,596 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-12-29 18:59:12,599 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-12-29 18:59:12,600 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-12-29 18:59:12,635 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started realms cache from keycloak container
+2021-12-29 18:59:12,635 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started users cache from keycloak container
+2021-12-29 18:59:12,635 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started keys cache from keycloak container
+2021-12-29 18:59:12,635 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-12-29 18:59:12,731 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-12-29 18:59:12,987 INFO  [org.keycloak.services] (ServerService Thread Pool -- 53) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-12-29 18:59:13,273 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 53) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-12-29 18:59:13,493 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-12-29 18:59:13,501 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-12-29 18:59:13,509 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-12-29 18:59:13,510 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 53) Node name: desktop-egacmun, Site name: null
+2021-12-29 18:59:14,631 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 53) Database info: {databaseUrl=jdbc:h2:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2021-12-29 18:59:15,696 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 53) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-12-29 18:59:15,774 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 53) HHH000412: Hibernate Core {5.3.24.Final}
+2021-12-29 18:59:15,776 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 53) HHH000206: hibernate.properties not found
+2021-12-29 18:59:15,967 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 53) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-12-29 18:59:16,116 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 53) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-29 18:59:16,158 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 53) Envers integration enabled? : true
+2021-12-29 18:59:16,385 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 53) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-12-29 18:59:16,588 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 53) HV000001: Hibernate Validator 6.0.22.Final
+2021-12-29 18:59:17,401 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 53) HHH000397: Using ASTQueryTranslatorFactory
+2021-12-29 18:59:18,298 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,301 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,307 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,307 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,308 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,309 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,311 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,311 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,316 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,316 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 18:59:18,397 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-12-29 18:59:18,470 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-12-29 18:59:18,511 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-12-29 18:59:18,515 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) started in 10435ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2021-12-29 18:59:18,521 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-12-29 18:59:18,522 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-12-29 19:04:38,372 INFO  [org.jboss.as.repository] (External Management Request Threads -- 2) WFLYDR0001: Content added at location C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data\content\66\c915a84c2a437e21da3da06c4b72796d396acd\content
+2021-12-29 19:06:09,201 INFO  [org.keycloak.services] (default task-3) KC-SERVICES0077: Created initial admin user with username admin
+2021-12-29 19:12:26,676 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:32,025 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:34,326 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:34,634 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:35,183 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:35,824 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:36,408 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:36,891 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:37,416 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:37,892 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=e3b08643-2487-47ef-98f3-478df525745b, username=admin, authSessionParentId=e3b08643-2487-47ef-98f3-478df525745b, authSessionTabId=Pguua7zgwkk
+2021-12-29 19:12:49,983 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:12:52,060 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:12:53,113 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:12:53,752 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:12:59,626 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:13:03,396 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:13:04,216 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:13:04,790 WARN  [org.keycloak.events] (default task-7) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=chfg3MpmWHI
+2021-12-29 19:17:49,752 WARN  [org.keycloak.events] (default task-7) type=RESET_PASSWORD_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, username=admin, authSessionParentId=73bea2c3-2aa1-47e0-9f80-43f049dfa1d3, authSessionTabId=5E_gOJcdhGM
+2021-12-29 19:19:01,630 WARN  [org.keycloak.events] (default task-20) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=not_allowed
+2021-12-29 19:19:53,611 WARN  [org.keycloak.events] (default task-20) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=not_allowed
+2021-12-29 19:20:11,767 WARN  [org.keycloak.events] (default task-20) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=not_allowed
+2021-12-29 20:01:34,087 WARN  [org.keycloak.events] (default task-24) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2021-12-29 20:02:16,303 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:03:36,370 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:03:55,089 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:05:02,358 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:06:45,424 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:06:46,526 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:06:47,198 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:06:47,663 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:07:54,173 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:05,877 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:10,363 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:34,437 WARN  [org.keycloak.events] (default task-24) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:42,547 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:46,518 WARN  [org.keycloak.events] (default task-28) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:08:58,687 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-12-29 20:08:58,708 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 20:08:58,718 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-12-29 20:08:58,782 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 20:08:58,782 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-12-29 20:08:58,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-12-29 20:08:58,800 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2021-12-29 20:08:58,804 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-12-29 20:08:58,884 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 20:08:58,886 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-12-29 20:08:58,903 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2021-12-29 20:08:58,938 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2021-12-29 20:08:58,940 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-12-29 20:08:58,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.2.14.Final stopping
+2021-12-29 20:08:58,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped keys cache from keycloak container
+2021-12-29 20:08:58,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2021-12-29 20:08:58,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2021-12-29 20:08:58,962 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2021-12-29 20:08:58,963 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2021-12-29 20:08:58,963 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped users cache from keycloak container
+2021-12-29 20:08:58,963 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2021-12-29 20:08:58,983 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2021-12-29 20:08:58,984 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2021-12-29 20:08:58,984 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2021-12-29 20:08:58,984 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped work cache from keycloak container
+2021-12-29 20:08:58,988 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped realms cache from keycloak container
+2021-12-29 20:08:59,000 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-12-29 20:08:59,009 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 279ms
+2021-12-29 20:08:59,019 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 67) Stopping cache manager null on null
+2021-12-29 20:08:59,019 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 68) Stopping cache manager null on null
+2021-12-29 20:08:59,055 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) stopped in 325ms
+2021-12-29 20:09:11,424 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2021-12-29 20:09:12,017 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2021-12-29 20:09:12,024 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-12-29 20:09:12,124 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) starting
+2021-12-29 20:09:12,126 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot
+	java.io.tmpdir = C:\Users\DESKTO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\composer;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\nodejs\;C:\Program Files\Symfony;C:\xampp\php;C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\Desktop-666\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Desktop-666\AppData\Roaming\npm;C:\Users\Desktop-666\AppData\Local\Microsoft\WindowsApps;C:\Users\Desktop-666\AppData\Local\atom\bin;C:\Users\Desktop-666\AppData\Roaming\Composer\vendor\bin;C:\Users\Desktop-666\Desktop\dart-sdk\bin;C:\Users\Desktop-666\Desktop\flutter\bin;C:\Users\Desktop-666\AppData\Local\GitHubDesktop\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.12+7
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Foundation
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-11.0.12+7
+	java.version = 11.0.12
+	java.version.date = 2021-07-20
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Eclipse Foundation
+	java.vm.version = 11.0.12+7
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	jboss.host.name = desktop-egacmun
+	jboss.modules.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-egacmun
+	jboss.qualified.host.name = desktop-egacmun
+	jboss.server.base.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone
+	jboss.server.config.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration
+	jboss.server.data.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data
+	jboss.server.deploy.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data\content
+	jboss.server.log.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log
+	jboss.server.name = desktop-egacmun
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties
+	module.path = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules
+	org.jboss.boot.log.file = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\Desktop-666\AppData\Local\Programs\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\jboss-modules.jar -mp C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = MA
+	user.dir = C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\bin
+	user.home = C:\Users\Desktop-666
+	user.language = fr
+	user.name = Desktop-666
+	user.script = 
+	user.timezone = Africa/Casablanca
+	user.variant = 
+2021-12-29 20:09:12,129 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration/logging.properties 
+2021-12-29 20:09:13,052 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.1.Final
+2021-12-29 20:09:13,977 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-12-29 20:09:13,997 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.5.Final
+2021-12-29 20:09:14,007 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.5.Final
+2021-12-29 20:09:14,157 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2021-12-29 20:09:14,161 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-12-29 20:09:14,163 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-12-29 20:09:14,172 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2021-12-29 20:09:14,159 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2021-12-29 20:09:14,201 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2021-12-29 20:09:14,251 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.14.Final starting
+2021-12-29 20:09:14,254 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2021-12-29 20:09:14,289 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-12-29 20:09:14,333 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2021-12-29 20:09:14,351 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-12-29 20:09:14,362 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-12-29 20:09:14,385 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2021-12-29 20:09:14,493 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore' does not exist. Used blank.
+2021-12-29 20:09:14,554 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-12-29 20:09:14,588 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2021-12-29 20:09:14,988 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2021-12-29 20:09:14,992 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2021-12-29 20:09:14,994 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2021-12-29 20:09:15,057 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.23.Final
+2021-12-29 20:09:15,060 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\deployments
+2021-12-29 20:09:15,064 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2021-12-29 20:09:15,066 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2021-12-29 20:09:15,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2021-12-29 20:09:15,096 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2021-12-29 20:09:15,131 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-12-29 20:09:15,168 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2021-12-29 20:09:15,210 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-12-29 20:09:15,351 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 20:09:15,438 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 20:09:15,439 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 20:09:15,976 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2021-12-29 20:09:16,029 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 20:09:16,031 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-12-29 20:09:16,054 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2021-12-29 20:09:16,054 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-12-29 20:09:16,270 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-12-29 20:09:16,320 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2021-12-29 20:09:16,322 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2021-12-29 20:09:16,320 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started sessions cache from keycloak container
+2021-12-29 20:09:16,319 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2021-12-29 20:09:16,320 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2021-12-29 20:09:16,323 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2021-12-29 20:09:16,320 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started work cache from keycloak container
+2021-12-29 20:09:16,325 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2021-12-29 20:09:16,375 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started authorization cache from keycloak container
+2021-12-29 20:09:16,375 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started realms cache from keycloak container
+2021-12-29 20:09:16,375 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started keys cache from keycloak container
+2021-12-29 20:09:16,375 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started users cache from keycloak container
+2021-12-29 20:09:16,526 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2021-12-29 20:09:16,871 INFO  [org.keycloak.services] (ServerService Thread Pool -- 54) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2021-12-29 20:09:17,374 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 54) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2021-12-29 20:09:17,481 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2021-12-29 20:09:17,490 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2021-12-29 20:09:17,498 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2021-12-29 20:09:17,500 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 54) Node name: desktop-egacmun, Site name: null
+2021-12-29 20:09:18,557 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 54) Database info: {databaseUrl=jdbc:h2:C:\Users\Desktop-666\Desktop\projects\testApp\keycloak-16.1.0\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2021-12-29 20:09:19,583 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 54) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2021-12-29 20:09:19,682 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 54) HHH000412: Hibernate Core {5.3.24.Final}
+2021-12-29 20:09:19,684 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 54) HHH000206: hibernate.properties not found
+2021-12-29 20:09:19,903 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 54) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2021-12-29 20:09:20,049 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 54) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-29 20:09:20,094 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 54) Envers integration enabled? : true
+2021-12-29 20:09:20,310 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 54) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-12-29 20:09:20,514 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 54) HV000001: Hibernate Validator 6.0.22.Final
+2021-12-29 20:09:21,958 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 54) HHH000397: Using ASTQueryTranslatorFactory
+2021-12-29 20:09:23,126 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,129 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,130 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,131 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,132 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,132 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,133 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,133 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,134 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,134 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 54) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2021-12-29 20:09:23,267 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2021-12-29 20:09:23,359 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2021-12-29 20:09:23,414 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-12-29 20:09:23,420 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) started in 12409ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2021-12-29 20:09:23,428 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-12-29 20:09:23,431 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-12-29 20:09:27,400 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:10:08,444 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:10:14,000 WARN  [org.keycloak.events] (default task-2) type=LOGIN_ERROR, realmId=API, clientId=1, userId=null, ipAddress=127.0.0.1, error=client_not_found
+2021-12-29 20:10:37,811 WARN  [org.keycloak.events] (default task-3) type=LOGIN_ERROR, realmId=API, clientId=test-api, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=c0379c67-26a5-4c27-9356-32af0ec83c00, username=admin, authSessionParentId=c0379c67-26a5-4c27-9356-32af0ec83c00, authSessionTabId=rlgmCIo3M7A
+2021-12-29 20:12:07,083 WARN  [org.keycloak.events] (default task-4) type=LOGIN_ERROR, realmId=API, clientId=test-api, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:3001/api/users/getUsers?auth_callback=1, code_id=c0379c67-26a5-4c27-9356-32af0ec83c00, username=admin, authSessionParentId=c0379c67-26a5-4c27-9356-32af0ec83c00, authSessionTabId=rlgmCIo3M7A
+2021-12-29 20:12:33,802 WARN  [org.keycloak.events] (default task-5) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=43df7f71-76ec-4a1e-99b2-af9888784f19, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, refresh_token_type=Refresh, refresh_token_id=7f8247a6-5bc7-457e-82d9-2c8fc82e27b5, client_auth_method=client-secret
+2021-12-29 20:27:11,197 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2021-12-29 20:27:11,233 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2021-12-29 20:27:11,260 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2021-12-29 20:27:11,370 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2021-12-29 20:27:11,373 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2021-12-29 20:27:11,388 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-12-29 20:27:11,407 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-12-29 20:27:11,416 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-12-29 20:27:11,494 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-12-29 20:27:11,518 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-12-29 20:27:11,536 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2021-12-29 20:27:11,617 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2021-12-29 20:27:11,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2021-12-29 20:27:11,617 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped work cache from keycloak container
+2021-12-29 20:27:11,617 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped keys cache from keycloak container
+2021-12-29 20:27:11,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2021-12-29 20:27:11,617 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2021-12-29 20:27:11,617 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2021-12-29 20:27:11,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2021-12-29 20:27:11,621 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 312ms
+2021-12-29 20:27:11,619 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2021-12-29 20:27:11,626 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped users cache from keycloak container
+2021-12-29 20:27:11,627 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2021-12-29 20:27:11,628 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped realms cache from keycloak container
+2021-12-29 20:27:11,655 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 74) Stopping cache manager null on null
+2021-12-29 20:27:11,675 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2021-12-29 20:27:11,676 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-12-29 20:27:11,679 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-12-29 20:27:11,684 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.2.14.Final stopping
+2021-12-29 20:27:11,703 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 69) Stopping cache manager null on null
+2021-12-29 20:27:11,726 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: Keycloak 16.1.0 (WildFly Core 18.0.0.Final) stopped in 414ms
