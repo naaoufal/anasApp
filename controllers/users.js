@@ -62,7 +62,6 @@ const adminClient = new KcAdminClient({
 })
 
 // auth using keycloak :
-
 const authKeycloak = async (req, res) => {
     try {
         await adminClient.auth({
@@ -78,10 +77,25 @@ const authKeycloak = async (req, res) => {
     }
 }
 
+// create new user using keycloak :
+const createUserWithKeycloak = async (req, res) => {
+    try {
+        const newUser = await this.kcAdminClient.users.create({
+            realm: 'API',
+            username: req.body.username,
+            email: req.body.email,
+        })
+        res.json(newUser)
+    } catch (error) {
+        res.json({ message : error.message })
+    }
+}
+
 
 module.exports = {
     getUsers,
     postUser,
     userAuth,
-    authKeycloak
+    authKeycloak,
+    createUserWithKeycloak
 }

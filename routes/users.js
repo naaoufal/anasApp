@@ -17,4 +17,6 @@ router.post("/createUser", userController.postUser)
 
 router.post("/keycloak", userController.authKeycloak)
 
+router.post("/createUserKeycloak", userController.createUserWithKeycloak)
+
 module.exports = router
