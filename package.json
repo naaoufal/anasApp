@@ -9,10 +9,14 @@
   "author": "naaoufal",
   "license": "MIT",
   "dependencies": {
+    "@elastic/elasticsearch": "^7.16.0",
+    "@keycloak/keycloak-admin-client": "^16.1.0",
     "cors": "^2.8.5",
+    "elasticsearch": "^16.7.2",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "jsonwebtoken": "^8.5.1",
+    "keycloak-admin": "^1.14.22",
     "keycloak-connect": "^16.1.0",
     "mongoose": "^6.1.4"
   },

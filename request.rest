@@ -22,20 +22,28 @@ Content-Type: application/json
 
 ###
 
+POST  http://localhost:3001/api/users/keycloak
+
+###
+
 POST http://localhost:3001/api/posts/createPost
 Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
 
 {
-    "titre" : "titre 4",
-    "contenu" : "contenu 4",
-    "emplacement" : "emplacement 4"
+    "titre" : "titre 5",
+    "contenu" : "contenu 5",
+    "emplacement" : "emplacement 5"
 }
 
 ###
 
 GET http://localhost:3001/api/posts/getPosts
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+### GET POSTS with elastic search :
+
+GET http://localhost:3001/api/posts/getElastic/X2LFEH4Bem2oWiUglaqS
 
 ###
 
@@ -51,3 +59,19 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvd
 ###
 GET http://localhost:3001/api/favorits/listFavorit/61cc93c780ae7b396dabe954
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+###
+
+GET http://localhost:3001/api/comments/getComments/61cce31aa7790a433089930c
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VtYWlsIjoibmFvdWZlbGJlbm1lbnNvdXJAZ21haWwuY29tIiwidXNwYXNzd29yZCI6ImF6ZXIiLCJpYXQiOjE2NDA4MDg3MTR9.vqTlbTxycOfCg9lGHMLGOZKm0ox8vPilWiRjN6yj3aA
+
+###
+
+POST http://localhost:3001/api/comments/addComment
+Content-Type: application/json
+
+{
+    "userID" : "61cce371c3c019e001de3e5d",
+    "postID" : "61cce31aa7790a433089930c",
+    "comment" : "comment 4"
+}

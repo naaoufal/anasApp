@@ -1,16 +1,14 @@
 const express = require("express")
 const router = express.Router()
-const postController = require("../controllers/posts")
+const commentController = require('../controllers/comments')
 
 // midlle ware that make apis acces just for user that are already susbscribe :
 const access = require("../midllewares/userAuth")
 
 // apis :
 
-router.get("/getPosts", access, postController.getPost)
+router.get("/getComments/:id", access, commentController.getComments)
 
-router.get("/getElastic/:id", postController.getElasticSearch)
-
-router.post("/createPost", access, postController.addPost)
+router.post("/addComment", access, commentController.addComment)
 
 module.exports = router

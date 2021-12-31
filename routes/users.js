@@ -13,4 +13,8 @@ router.get("/getUsers", access, userController.getUsers)
 
 router.post("/createUser", userController.postUser)
 
+// auth with keycloak :
+
+router.post("/keycloak", userController.authKeycloak)
+
 module.exports = router

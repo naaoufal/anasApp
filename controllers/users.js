@@ -1,5 +1,7 @@
 const User = require('../models/users')
 const jwt = require("jsonwebtoken")
+const KcAdminClient = require('keycloak-admin').default
+const res = require('express/lib/response')
 require('dotenv').config()
 
 // get all users :
@@ -27,7 +29,7 @@ const postUser = async (req, res) => {
     }
 }
 
-// get user by email and password :
+// get user by email and password using json web token :
 const userAuth = async (req, res, next) => {
 
     const { email, password } = req.body
@@ -53,9 +55,33 @@ const userAuth = async (req, res, next) => {
 
 }
 
+// init keycloak admin :
+const adminClient = new KcAdminClient({
+    baseUrl : 'http://localhost:8080/auth/',
+    realmName : 'API'
+})
+
+// auth using keycloak :
+
+const authKeycloak = async (req, res) => {
+    try {
+        await adminClient.auth({
+            username: 'user',
+            password: 'azer',
+            grantType: 'password',
+            clientId: 'test-api'
+        })
+        const users = await adminClient.users.find()
+        res.json(users)
+    } catch (error) {
+        res.json({ message : error.message })
+    }
+}
+
 
 module.exports = {
     getUsers,
     postUser,
-    userAuth
+    userAuth,
+    authKeycloak
 }
